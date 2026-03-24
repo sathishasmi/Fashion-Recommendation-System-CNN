@@ -1,2 +1,17 @@
-data/
+# Virtual Environment
+venv/
+.env/
+env/
+
+# Dataset
+fashion-dataset/
+
+# Model files
 *.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
