@@ -20,7 +20,7 @@ Upload a cloth image → system suggests similar cloth image
 ### Recommendations
 ![demo 1 Output](assets/output.png)
 
-### Demo images (output images for other fashion input image)
+### Demo images (Recommendations for other input images)
 ![demo2](assets/demo2.png)
 ![demo3](assets/demo3.png)
 ![demo4](assets/demo4.png)
