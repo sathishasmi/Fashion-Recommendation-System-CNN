@@ -1,6 +1,40 @@
 # Fashion Recommendation System (PyTorch + CNN)
 
-A content-based fashion recommendation system that suggests similar clothing items using deep learning.
+## Project Description
+
+A deep learning-based fashion recommendation system that suggests visually similar products from an uploaded image. It uses a pretrained ResNet50 CNN for feature extraction and cosine similarity to find the closest matches. The application is built with PyTorch and Streamlit, enabling fast and interactive image-based recommendations.
+
+---
+## 📊 Dataset
+
+This project uses the Fashion Product Images Dataset from Kaggle:
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
+---
+
+## Demo
+Upload a cloth image → system suggests similar cloth image
+### Input Image
+![Demo 1 Input](assets/input.png)
+
+### Recommendations
+![demo 1 Output](assets/output.png)
+
+### Demo images (output images for other fashion input image)
+![demo2](assets/demo2.png)
+![demo3](assets/demo3.png)
+![demo4](assets/demo4.png)
+
+---
+
+## Tech Stack
+
+* Python
+* PyTorch
+* Torchvision (ResNet50)
+* Streamlit
+* NumPy
+* Scikit-learn
 
 ---
 
@@ -87,31 +121,6 @@ Then open:
 ```
 http://localhost:8501
 ```
-
----
-## Demo
-Upload a cloth image → system suggests similar cloth image
-### Input Image
-![Demo 1 Input](assets/input.png)
-
-### Recommendations
-![demo 1 Output](assets/output.png)
-
-### Demo images (output images for other fashion input image)
-![demo2](assets/demo2.png)
-![demo3](assets/demo3.png)
-![demo4](assets/demo4.png)
----
-
-## Tech Stack
-
-* Python
-* PyTorch
-* Torchvision (ResNet50)
-* Streamlit
-* NumPy
-* Scikit-learn
-
 ---
 
 ## Future Improvements
@@ -123,10 +132,12 @@ Upload a cloth image → system suggests similar cloth image
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Satheesh**
-Machine Learning Enthusiast
+
+GitHub:  
+https://github.com/sathishasmi
 
 ---
 
